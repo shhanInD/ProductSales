@@ -4,7 +4,7 @@ import pandas_gbq
 
 json_path_list = [
     "/home/ubuntu/automation/DemandForecastOrdersheets/credfile/dbwisely-v2-01bfe15ef302.json",
-    "/Users/waijeulli/Downloads/dbwisely-v2-01bfe15ef302.json"
+    # "/Users/waijeulli/Downloads/dbwisely-v2-01bfe15ef302.json"
 ]
 
 for path in json_path_list:
