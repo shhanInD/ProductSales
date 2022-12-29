@@ -13,7 +13,7 @@ for path in json_path_list:
             json_data = json.load(f)
         json_path = path
     except:
-        json_path = ""
+        json_path = path
         continue
 
 credentials = service_account.Credentials.from_service_account_file(
